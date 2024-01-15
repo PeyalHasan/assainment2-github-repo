@@ -113,6 +113,11 @@ button{
     border-radius: 8px;
     background: #FF5400;
     border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #e27843;
+    
 }
 input[type=text]{
     border-radius: 8px;
@@ -126,4 +131,30 @@ input[type=text]{
     background: #FFF;
     width: 174px;
     height: 52px;
+}
+/* Popular Section */
+
+.popular-section{
+    margin-top:206px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:53px ;
+}
+.popurar-sec-img{
+    max-width: 540px;
+    max-height: 550px;
+    background: url(../Images/Rectangle\ 4.png), lightgray 50% ;
+    bacr
+    
+}
+.popular-tour{
+    margin-top: -40px;
+}
+.popular-tour h3{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.popular-tour p, ul{
+    color: #5A5A5D;
 }
