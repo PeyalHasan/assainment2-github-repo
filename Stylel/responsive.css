@@ -1,0 +1,48 @@
+@media (max-width:600px) {
+    .header-main {
+        flex-direction: column;
+
+    }
+    .nav-title{
+        flex-direction: column;
+    }
+    .banner-selection{
+        flex-direction: column;
+        padding-right: 40px;
+        margin-left:24px ;
+        gap: 16px;
+    }
+    .banner-text h2{
+        height: 28px;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+        padding-bottom: 8px;
+    }
+    .banner-text p{
+        margin-bottom: 2px;
+        height: 63px;
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+    .main-container{
+        width: 335px;
+        height: 483px;
+        background-position: center;
+    }
+    button{
+        width: 255px;
+        height: 52px;
+    }
+    input[type=text]{
+        width: 255px;
+        height: 52px;
+    }
+    .select{
+        width: 255px;
+        height: 52px;
+    }
+
+}
+ 
