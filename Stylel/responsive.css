@@ -54,6 +54,12 @@
     .popurar-sec-img img{
         width: 335px;
     }
+    .destination h3{
+        width: 240px;
+    }
+    .destination p{
+        width: 309px;
+    }
     .Item-1{
         flex-direction: column;
     }
@@ -97,5 +103,11 @@
        width: 335px;
         height: 289px;
         object-fit: cover;
+    }
+    .chose-container{
+        grid-template-columns: 1fr;
+    }
+    .common{
+        max-width: 335px;
     }
 }

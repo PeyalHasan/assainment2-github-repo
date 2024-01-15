@@ -241,3 +241,41 @@ input[type=text]{
 .indonesia img{
  width: 100%;
 }
+ /* Why Chose section  */ 
+
+ .chose-container{
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2%
+ }
+ .Hotels{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+ }
+ .common{
+    height: 284px;
+    border-radius: 16px;
+    padding-top: 32px;
+    padding-left: 32px;
+ }
+ .common h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #131318;
+ }
+ .common p{
+    color: #5A5A5D;
+ }
+ .service{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+ }
+ .Price{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    grid-column: span 1;
+    align-items: center;
+ }
