@@ -150,11 +150,94 @@ input[type=text]{
 .popular-tour{
     margin-top: -40px;
 }
+.popular-tour a{
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 800;
+    text-decoration: none;
+}
 .popular-tour h3{
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
 }
 .popular-tour p, ul{
-    color: #5A5A5D;
+    color: rgba(19, 19, 24, 0.70);
+}
+.destination p{
+    margin:  0 auto;
+    justify-content: center;
+    max-width: 643px;
+    margin-bottom: 48px;
+}
+.destination h3{
+    max-width: 478px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+.countrys{
+    max-width: 1170px;
+}
+.Item-1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.Item-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.Item-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.BD{
+    max-width: 40%;
+}
+.BD img{
+    width: 100%;
+}
+.BU{
+    max-width: 58%;
+}
+.BU img{
+    width: 100%;
+}
+.kashmir{
+    max-width: 21%;
+}
+.kashmir img{
+    width: 100%;
+    height: 286px;
+}
+.North-america{
+    max-width: 45%;
+}
+.North-america img{
+    width: 100%;
+    height: 286px;
+}
+.srilanka{
+    max-width: 30%;
+}
+.srilanka img{
+    width: 100%;
+    height: 286px;
+}
+.maldivs{
+    max-width:49%
+}
+.maldivs img{
+    width: 100%;
+}
+.indonesia{
+    max-width:49%
+}
+.indonesia img{
+ width: 100%;
 }

@@ -54,7 +54,48 @@
     .popurar-sec-img img{
         width: 335px;
     }
-    
-
+    .Item-1{
+        flex-direction: column;
+    }
+    .Item-2{
+        flex-direction: column;
+    }
+    .Item-3{
+        flex-direction: column;
+    }
+    .BD img{
+        width: 335px;
+        height: 289px;
+        object-fit: cover;
+    }
+    .BU img{
+       width: 335px;
+        height: 289px;
+        object-fit: cover;
+    }
+    .kashmir img{
+       width: 335px;
+        height: 289px;
+        object-fit: cover;
+    }
+    .North-america img{
+       width: 335px;
+        height: 289px;
+        object-fit: cover;
+    }
+    .srilanka img{
+        width: 335px;
+        height: 289px;
+        object-fit: cover;
+    }
+    .maldivs img{
+         width: 335px;
+        height: 289px;
+        object-fit: cover;
+    }
+    .indonesia img{
+       width: 335px;
+        height: 289px;
+        object-fit: cover;
+    }
 }
- 
