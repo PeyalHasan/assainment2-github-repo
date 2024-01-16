@@ -140,4 +140,24 @@
     .simple-img{
         margin-top: 24px;
     }
+    .newslatter{
+        flex-direction: column;
+    }
+    .image img{
+        margin-top: 16px;
+    }
+    .footer {
+        max-width: 375px;
+    }
+    .footer hr{
+        max-width: 335px;
+    }
+    .footer-title{
+        margin-left: 0;
+        gap: 20px;
+    }
+    .bottom{
+     margin-left: 12%;
+     width:100px;
+    }
 }
