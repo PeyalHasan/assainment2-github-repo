@@ -365,11 +365,20 @@ input[type=text]{
     font-size: 1.25rem;
     font-weight: 800;
  }
+ .see-all{
+   display: flex;
+   justify-content: center;
+ }
+ .see-all a{
+    text-decoration: none;
+    color:#FFF;
+    font-size: 1rem;
+    font-weight: 800;
+ }
  .photos{
     max-width: 1170px;
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    gap: 10px;
  }
  .photos img{
     border-radius: 10px;
@@ -464,4 +473,34 @@ input[type=text]{
     object-fit: cover;
     max-width: 100%;
  }
- 
+ /* optional section */
+ .simple-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+ }
+ .simple{
+    line-height: 26px;
+    margin-right: 2rem;
+ }
+ .simple button{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+ }
+ .simple-img{
+    position: relative;
+    width: 100%;
+ }
+ .simple-img img{
+    width: 100%;
+ }
+ .text{
+    color: #FFF;
+    position: absolute;
+    bottom: 40%;
+    left: 30%;
+ }
+ .play{
+    background: none;
+ }
