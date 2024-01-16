@@ -105,9 +105,31 @@
         object-fit: cover;
     }
     .chose-container{
-        grid-template-columns: 1fr;
+        
+    }  
+    .Hotels{
+        grid-column: 1 / 9;
+    }
+    .service{
+        grid-row: 2/3;
+        grid-column: 1 / 9;
+    }
+    .Price{
+        grid-row: 3 / 4;
+        grid-column: 1 / 9;
+    }
+    .tour img{
+        max-width: 335px;
+        height:500px;
+        object-fit: cover;
+    }
+    .tour-plan{
+        width:80%;
+        left: 5%;
     }
     .common{
         max-width: 335px;
+        
     }
+    .
 }
